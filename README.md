@@ -17,7 +17,8 @@ For example,
 
 **Requirements**  
 
-djvulibre, [tesseract](https://en.wikipedia.org/wiki/Tesseract)
+  * djvulibre, 
+  * [tesseract](https://en.wikipedia.org/wiki/Tesseract)
 
 Say, in Fedora Linux you can install them with
 

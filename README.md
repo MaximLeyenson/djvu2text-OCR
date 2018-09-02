@@ -15,3 +15,11 @@ For example,
    $ djvu2text-OCR.py paper.djvu  OCR.txt eng
 ```
 
+**Requirements**
+
+[to be written]
+
+
+**Remark**
+
+[to be written]

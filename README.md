@@ -15,9 +15,18 @@ For example,
    $ djvu2text-OCR.py paper.djvu  OCR.txt eng
 ```
 
-**Requirements**
+**Requirements**  
 
-[to be written]
+djvulibre, [tesseract](https://en.wikipedia.org/wiki/Tesseract)
+
+Say, in Fedora Linux you can install them with
+
+```bash
+$ sudo dnf install -y djvulibre tesseract
+$ sudo dnf install -y tesseract-langpack-fra
+```
+
+(and whatever other languages you need)
 
 
 **Remark**

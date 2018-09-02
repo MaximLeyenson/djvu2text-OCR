@@ -31,4 +31,16 @@ $ sudo dnf install -y tesseract-langpack-fra
 
 **Remark**
 
-[to be written]
+You do not need this script if your DjVu file already contains a text 
+layer.  In this case all you have to do is to run 
+
+```bash
+$  djvused <DjVu document>  -e 'print-pure-txt' > <text file>
+``` 
+
+for example
+```bash
+$  djvused paper.djvu 'print-pure-txt' > paper.txt
+``` 
+
+where djvused is a part of the standard library djvulibre.)
